@@ -3,7 +3,7 @@
 - <nomComplet1>Samuel Cossette</nomComplet1>
 - <courriel1>samuel.cossette.1@ens.etsmtl.ca</courriel1>
 - <codeMoodle1>AT32960</codeMoodle1>
-- <githubAccount1>Entrer l'identifiant de votre compte github</githubAccount1>
+- <githubAccount1>RiddimCrunch</githubAccount1>
 
 # Squelette pour un API simple dans Node, Express et TypeScript
 
@@ -140,13 +140,13 @@ Pour plus d'informations au sujet de l'utilisation des breakpoints dans WebStorm
 
 Dans un design favorisant la maintenabilité, on évite que la couche Présentation ait la responsabilité de gérer les évènements système (opérations système). Larman présente dans son livre un exemple avec un JFrame (en Java Swing) à la figure F16.24. On l'adapte ici au contexte d'un service Web dans le framework Express (Node.js):
 
-![Diagramme de séparation des couches avec une opération système envoyée au contrôleur GRASP](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/figure-f16.24-web.puml)
+![Diagramme de séparation des couches avec une opération système envoyée au contrôleur GRASP](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-RiddimCrunch/refs/heads/master/docs/modeles/figure-f16.24-web.puml)
 
 Dans la figure ci-dessus, l'objet `:JeuDeDes` (qui est un objet en dehors de la couche présentation) reçoit l'opération système `demarrerJeu(nom)` selon le principe GRASP Contrôleur. Ce squelette respecte cette séparation.
 
 Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. On y voit tous les détails sordides de l'implémentation avec Node Express. **Notez que cette figure est présentée pour faciliter la compréhension seulement. On ne produit pas ce genre de diagramme dans la méthodologie**.
 
-![Une opération système du DSS est envoyée par la couche présentation et reçue par un objet (le contrôleur GRASP) dans la couche domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dss-details-demarrerJeu.puml)
+![Une opération système du DSS est envoyée par la couche présentation et reçue par un objet (le contrôleur GRASP) dans la couche domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-RiddimCrunch/refs/heads/master/docs/modeles/dss-details-demarrerJeu.puml)
 
 ## Artefacts d'analyse et de conception
 
