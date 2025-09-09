@@ -1,8 +1,8 @@
 # Identification de l'étudiant
 
-- <nomComplet1>Entrer votre nom</nomComplet1>
-- <courriel1>Entrer votre courriel</courriel1>
-- <codeMoodle1>Entrer votre code moodle obtenu à partir de Signets, 2 lettres majuscule avec 5 chiffres</codeMoodle1>
+- <nomComplet1>Samuel Cossette</nomComplet1>
+- <courriel1>samuel.cossette.1@ens.etsmtl.ca</courriel1>
+- <codeMoodle1>AT32960</codeMoodle1>
 - <githubAccount1>Entrer l'identifiant de votre compte github</githubAccount1>
 
 # Squelette pour un API simple dans Node, Express et TypeScript
@@ -165,15 +165,20 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ### Diagramme de cas d'utilisation
 
-![Diagramme de cas d'utilisation](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dcu.puml)
+![Diagramme de cas d'utilisation](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-RiddimCrunch/refs/heads/master/docs/modeles/dcu.puml)
+
+#### Redémarrer
+
+1. Le Joueur demande à redémarrer l'application.
+2. Le Système termine tous les jeux en cours et redémarre l'application.
 
 ### Modèle du domaine
 
-![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/mdd.puml)
+![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-RiddimCrunch/refs/heads/master/docs/modeles/mdd.puml)
 
 ### Diagramme de séquence système (DSS)
 
-![Diagramme de séquence système](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dss-jouer.puml)
+![Diagramme de séquence système](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-RiddimCrunch/refs/heads/master/docs/modeles/dss-jouer.puml)
 
 ### Contrats d'opération et Réalisations de cas d'utilisation (RDCU)
 
@@ -187,7 +192,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, demarrerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-demarrerJeu.puml)
+![Diagramme de séquence, demarrerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-RiddimCrunch/refs/heads/master/docs/modeles/rdcu-demarrerJeu.puml)
 
 #### Opération: `jouer(nom:String)`
 
@@ -200,7 +205,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-jouer.puml)
+![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-RiddimCrunch/refs/heads/master/docs/modeles/rdcu-jouer.puml)
 
 #### Opération: `terminerJeu(nom:String)`
 
@@ -208,6 +213,6 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 - L'instance j de Joueur a été supprimée sur une base de correspondance avec nom
 
-![Diagramme de séquence, terminerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-terminerJeu.puml)
+![Diagramme de séquence, terminerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-RiddimCrunch/refs/heads/master/docs/modeles/rdcu-terminerJeu.puml)
 
 [README.md](../README.md)
